@@ -1015,7 +1015,7 @@ export default function App() {
       <section className="w-full">
         <div className="p-6 flex flex-col max-w-6xl mx-auto justify-center items-center">
           <h1 className="text-4xl font-semibold mb-6">Plagiarsm Checker</h1>
-          <p className="mb-6">Detecting plagiarism with high precision.</p>
+          <p className="mb-6">Traditional Rabin-Karp Algorithm.</p>
           <form
             className="w-full flex-col flex justify-center"
             onSubmit={handleSubmit}
@@ -1129,7 +1129,7 @@ export default function App() {
       )}
 
       {/* Features */}
-      <section className="w-full">
+      {/* <section className="w-full">
         <div className="p-6 mx-auto max-w-6xl grid grid-cols-12 gap-6">
           <div className="flex flex-col justify-center items-center col-span-12 | md:col-span-4">
             <i className="fa-solid fa-magnifying-glass fa-5x"></i>
@@ -1155,7 +1155,7 @@ export default function App() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
